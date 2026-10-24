@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="شروحات عملية باللغة العربية لإنشاء الصور والمواقع والتطبيقات باستخدام الذكاء الاصطناعي.">
+  <title>الشروحات والتطبيقات | عالم AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <span class="brand-icon">✦</span>
+    <span>عالم الذكاء الاصطناعي<small>أدوات اليوم... إبداع الغد</small></span>
+  </a>
+  <button class="menu-toggle" aria-label="فتح القائمة" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+  <nav class="nav">
+    <a href="index.html">الرئيسية</a>
+    <a href="tools.html">الأدوات</a>
+    <a class="active" href="guides.html">الشروحات والتطبيقات</a>
+    <a href="tools.html#compare">المقارنة</a>
+  </nav>
+</header>
+<main>
+  <section class="page-hero guide-hero">
+    <div>
+      <span class="eyebrow">تعلّم بالتطبيق</span>
+      <h1>من الفكرة إلى <span>مشروعك الأول</span></h1>
+      <p>دليل مبسّط للمبتدئين لاستخدام الذكاء الاصطناعي في الإبداع والبرمجة، خطوة بخطوة.</p>
+    </div>
+    <div class="page-hero-icon">⌘<span>✦</span></div>
+  </section>
+  <div class="guide-layout">
+    <aside class="guide-sidebar">
+      <h3>محتويات الدليل</h3>
+      <a href="#images">01 — إنشاء الصور</a>
+      <a href="#websites">02 — إنشاء المواقع</a>
+      <a href="#apps">03 — إنشاء التطبيقات</a>
+      <a href="#prompts">04 — كتابة وصف فعّال</a>
+      <div class="sidebar-tip">
+        <b>نصيحة</b>
+        <p>ابدأ بمشروع صغير، وراجع النتيجة بنفسك قبل نشرها.</p>
+      </div>
+    </aside>
+    <div class="guide-content">
+      <article class="lesson" id="images">
+        <div class="lesson-number">01</div>
+        <div>
+          <span class="tag">التصميم والإبداع</span>
+          <h2>كيف تنشئ صورة بالذكاء الاصطناعي؟</h2>
+          <p>اكتب وصفًا واضحًا للصورة التي تريدها، ثم جرّب أكثر من صياغة حتى تصل إلى نتيجة مناسبة.</p>
+          <ol>
+            <li>اختر أداة لتوليد الصور مثل Adobe Firefly أو ميزة الصور في أداة مساعدة مناسبة.</li>
+            <li>حدد الموضوع والأسلوب والألوان ومقاس الصورة.</li>
+            <li>راجع النتيجة وعدّل الوصف إذا لم تكن النتيجة دقيقة.</li>
+            <li>تحقق من حقوق الاستخدام قبل استعمال الصورة تجاريًا.</li>
+          </ol>
+          <div class="prompt-box">
+            <b>مثال جاهز للنسخ</b>
+            <p>صمّم صورة غلاف لموقع عربي عن الذكاء الاصطناعي، بأسلوب مستقبلي أنيق، ألوان كحلية وزرقاء مضيئة، عناصر تقنية بسيطة، مساحة فارغة لعنوان واضح، دون كتابة داخل الصورة.</p>
+            <button class="copy-button" onclick="navigator.clipboard.writeText('صمّم صورة غلاف لموقع عربي عن الذكاء الاصطناعي، بأسلوب مستقبلي أنيق، ألوان كحلية وزرقاء مضيئة، عناصر تقنية بسيطة، مساحة فارغة لعنوان واضح، دون كتابة داخل الصورة.').then(()=>this.textContent='تم النسخ ✓').catch(()=>this.textContent='انسخ النص يدويًا')">نسخ الوصف</button>
+          </div>
+        </div>
+      </article>
+      <article class="lesson" id="websites">
+        <div class="lesson-number">02</div>
+        <div>
+          <span class="tag">تطوير الويب</span>
+          <h2>كيف تنشئ موقعًا باستخدام AI؟</h2>
+          <p>يمكن لأدوات بناء المواقع أن تنتج نموذجًا أوليًا من وصفك، ويمكنك أيضًا طلب كود HTML وCSS ثم تعديله بنفسك.</p>
+          <ol>
+            <li>اكتب فكرة الموقع والجمهور المستهدف والصفحات المطلوبة.</li>
+            <li>اطلب تصميمًا متجاوبًا يدعم اللغة العربية واتجاه RTL.</li>
+            <li>راجع الملفات، واختبر الروابط والقوائم على الهاتف والكمبيوتر.</li>
+            <li>عدّل النصوص والألوان، ثم انشر الموقع عبر خدمة استضافة مناسبة.</li>
+          </ol>
+          <div class="prompt-box">
+            <b>مثال وصف لإنشاء موقع</b>
+            <p>أنشئ موقعًا عربيًا من ثلاث صفحات عن الذكاء الاصطناعي: الرئيسية، الأدوات، والشروحات. استخدم HTML وCSS فقط، تصميمًا داكنًا عصريًا، اتجاه RTL، بطاقات للأدوات، جدول مقارنة، وروابط واضحة بين الصفحات. اجعل الموقع متجاوبًا مع الهواتف.</p>
+            <button class="copy-button" onclick="navigator.clipboard.writeText('أنشئ موقعًا عربيًا من ثلاث صفحات عن الذكاء الاصطناعي: الرئيسية، الأدوات، والشروحات. استخدم HTML وCSS فقط، تصميمًا داكنًا عصريًا، اتجاه RTL، بطاقات للأدوات، جدول مقارنة، وروابط واضحة بين الصفحات. اجعل الموقع متجاوبًا مع الهواتف.').then(()=>this.textContent='تم النسخ ✓').catch(()=>this.textContent='انسخ النص يدويًا')">نسخ الوصف</button>
+          </div>
+        </div>
+      </article>
+      <article class="lesson" id="apps">
+        <div class="lesson-number">03</div>
+        <div>
+          <span class="tag">بناء التطبيقات</span>
+          <h2>كيف تبدأ تطبيقًا بمساعدة AI؟</h2>
+          <p>ابدأ بتحديد المشكلة التي يحلّها التطبيق، ثم ابنِ نسخة بسيطة واختبرها قبل إضافة ميزات كثيرة.</p>
+          <ol>
+            <li>اكتب وظيفة التطبيق ومن سيستخدمه.</li>
+            <li>حدد ثلاث ميزات أساسية فقط للنسخة الأولى.</li>
+            <li>اطلب من المساعد شرح الكود أو إنشاء نموذج أولي بأداة مناسبة.</li>
+            <li>اختبر التطبيق، ولا تضع كلمات المرور أو بيانات المستخدمين الحساسة في المطالبات.</li>
+            <li>قبل النشر، افحص الأمان والخصوصية والأداء على الأجهزة المختلفة.</li>
+          </ol>
+        </div>
+      </article>
+      <article class="lesson" id="prompts">
+        <div class="lesson-number">04</div>
+        <div>
+          <span class="tag">مهارة أساسية</span>
+          <h2>كيف تكتب وصفًا يعطي نتائج أفضل؟</h2>
+          <p>كلما كان طلبك محددًا، صار من الأسهل على الأداة فهم ما تحتاجه. استخدم هذه الصيغة:</p>
+          <div class="formula"><span>الدور</span> + <span>المهمة</span> + <span>التفاصيل</span> + <span>شكل النتيجة</span></div>
+          <p>مثال: «تصرّف كمدرّب برمجة للمبتدئين. اشرح خاصية Flexbox في CSS باللغة العربية، مع مثال صغير، ثم أعطني تمرينًا للتطبيق».</p>
+        </div>
+      </article>
+    </div>
+  </div>
+  <section class="cta">
+    <div class="cta-symbol">✧</div>
+    <div>
+      <span class="eyebrow">تعلّم مستمر</span>
+      <h2>جرّب، اختبر، ثم حسّن</h2>
+      <p>أفضل طريقة للتعلم هي بناء مشروع حقيقي وتطويره تدريجيًا.</p>
+    </div>
+    <a class="btn" href="tools.html">اختر أداة مناسبة ←</a>
+  </section>
+</main>
+<footer style="text-align: center; font-size: 12px; color: #888; padding: 15px;">
+  <p>تصميم وتطوير: هيثم صالح بادر</p>
+  <p>© 2026</p>
+</footer>
+</body>
+</html>
